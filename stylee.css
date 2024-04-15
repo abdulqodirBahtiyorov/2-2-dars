@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  max-width: 195px;
+}
+
+.left img {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 26px;
+  color: black;
+}
+
+button {
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid red;
+  color: #de2e54;
+
+  font-weight: 600;
+}
+
+ul li a:hover {
+  color: #de2e54;
+}
+
+.saction {
+  padding-left: 35px;
+  width: 100%;
+  height: 533px;
+  padding: 170px;
+  color: white;
+  background-size: cover;
+}
+
+.saction h1 {
+  width: 800px;
+  font-size: 45px;
+  text-align: center;
+  text-align: left;
+  margin-bottom: 37px;
+}
+
+button {
+  border-radius: 15px;
+  padding: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("./image\ 4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img {
+  padding-right: 300px;
+}
+
+.imgg {
+  display: flex;
+}
+
+section {
+  padding: 0 300px;
+  margin-top: 55px;
+}
+
+section h1 {
+  text-align: center;
+}
+
+.box h1 {
+  font-size: 26px;
+  font-weight: 20px;
+  color: rgb(255, 140, 0);
+}
+
+.dunyo{
+  width: 100%;
+  height: 600px;
+  background-color: aqua;
+  margin-top: 200px;  
+  
+}
+
+.photo{
+  position: relative;
+  display: flex;
+  top: -50px;
+  padding-left: 250px;
+}
+
+iframe{
+  display: flex;
+  justify-content: start;
+height: 331px;
+padding-right: 250px;
+}
+
+.inputt{
+  
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  /* border-color: 2px solid; */
+  /* border-collapse: collapse; */
+  padding: 20px 20px;
+  text-align: center;
+  gap: 35px;
+  
+}
+
+.map{
+  padding: 0px 250px;
+}
+.inp{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+}
+
+form{
+  width: 250px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.map{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input{
+  margin: 20px;
+  padding: 10px 24px;
+  border-radius: 8px;
+}
+
+#lol{
+  margin-left: 50px;
+  padding: 10px 30px;
+}
+
+
+
+
+
+
+
